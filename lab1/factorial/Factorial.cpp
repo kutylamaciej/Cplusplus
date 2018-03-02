@@ -4,5 +4,25 @@
 #include "Factorial.h"
 
 int factorial(int value) {
-  return 0;
+    if(value>=13 || value<=-13){
+        return 0;
+    }
+    else if (value<0){
+        int number = 1;
+        for (int i = -1; i >= value; i--){
+            number *=i ;
+        }
+        return number;
+    }
+    else if (value == 0){
+        int number = 1;
+        return number;
+    }
+    else{
+        int number = 1;
+        for(int i = 1; i <= value; i++){
+            number *= i;
+        }
+        return number;
+    }
 }
