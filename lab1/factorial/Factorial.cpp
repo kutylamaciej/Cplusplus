@@ -14,10 +14,6 @@ int factorial(int value) {
         }
         return number;
     }
-    else if (value == 0){
-        int number = 1;
-        return number;
-    }
     else{
         int number = 1;
         for(int i = 1; i <= value; i++){
