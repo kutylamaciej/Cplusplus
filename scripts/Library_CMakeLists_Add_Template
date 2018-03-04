@@ -1,3 +1,4 @@
+
 #set($NAME = ${StringUtils.removeAndHump($PROJECT_NAME_SEPARTED_WITH_SPACES," ")})
 #set($PROJECT_LOWER = $NAME.toLowerCase())
 #set($PROJECT_CAPTILIZED = $NAME)
